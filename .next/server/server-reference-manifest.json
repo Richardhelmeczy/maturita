@@ -1,14 +1,30 @@
 {
   "node": {
-    "a9969142328230ff0df9ba5dc61640a82998890d": {
+    "d83af03422ae2d6a29ae7ae6bfd05accbca5e066": {
       "workers": {
-        "app/doctors/appointment/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Ccreate-appointment.ts%22%2C%5B%22createAppointment%22%5D%5D%5D&__client_imported__=true!"
+        "app/profile/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5CGetUserProfile.ts%22%2C%5B%22UserProfileDetail%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/profile/page": "action-browser"
+      }
+    },
+    "b67e615c7f313f6ec41ed6eb337fdeebc8916efb": {
+      "workers": {
+        "app/doctors/appointment/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Ccreate-appointment.ts%22%2C%5B%22createAppointment%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/doctors/appointment/[id]/page": "action-browser"
       }
+    },
+    "f19891ef7fbd17f581c921afbf6b2b579cdfb117": {
+      "workers": {
+        "app/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Ccreate-user.ts%22%2C%5B%22createUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      }
     }
   },
   "edge": {},
-  "encryptionKey": "x/vaTQ2p9jBZez/oTtVpwVRj5k+iLq3tMg66djKWQhI="
+  "encryptionKey": "J3Tk8OnRgMUnnIY7PLghu4tWcIDTZzoI2irzT/hzyzo="
 }

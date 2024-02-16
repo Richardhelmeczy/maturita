@@ -614,7 +614,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\app-router\client\ClerkProvider.js`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\app-router\client\ClerkProvider.js`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -623,7 +623,7 @@ const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy
 const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\app-router\client\ClerkProvider.js#ClientClerkProvider`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\app-router\client\ClerkProvider.js#ClientClerkProvider`);
 
 
 /***/ }),
@@ -707,7 +707,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -716,29 +716,29 @@ const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy
 const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#AuthenticateWithRedirectCallback`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#AuthenticateWithRedirectCallback`);
 
-const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#ClerkLoaded`);
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#ClerkLoaded`);
 
-const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#ClerkLoading`);
+const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#ClerkLoading`);
 
-const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#MultisessionAppSupport`);
+const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#MultisessionAppSupport`);
 
-const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#Protect`);
+const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#Protect`);
 
-const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#RedirectToCreateOrganization`);
+const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#RedirectToCreateOrganization`);
 
-const e6 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#RedirectToOrganizationProfile`);
+const e6 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#RedirectToOrganizationProfile`);
 
-const e7 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#RedirectToSignIn`);
+const e7 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#RedirectToSignIn`);
 
-const e8 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#RedirectToSignUp`);
+const e8 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#RedirectToSignUp`);
 
-const e9 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#RedirectToUserProfile`);
+const e9 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#RedirectToUserProfile`);
 
-const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#SignedIn`);
+const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#SignedIn`);
 
-const e11 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#SignedOut`);
+const e11 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\controlComponents.js#SignedOut`);
 
 
 /***/ }),
@@ -780,7 +780,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -789,55 +789,55 @@ const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy
 const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#EmailLinkErrorCode`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#EmailLinkErrorCode`);
 
-const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#MagicLinkErrorCode`);
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#MagicLinkErrorCode`);
 
-const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#WithClerk`);
+const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#WithClerk`);
 
-const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#WithSession`);
+const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#WithSession`);
 
-const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#WithUser`);
+const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#WithUser`);
 
-const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#isClerkAPIResponseError`);
+const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#isClerkAPIResponseError`);
 
-const e6 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#isEmailLinkError`);
+const e6 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#isEmailLinkError`);
 
-const e7 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#isKnownError`);
+const e7 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#isKnownError`);
 
-const e8 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#isMagicLinkError`);
+const e8 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#isMagicLinkError`);
 
-const e9 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#isMetamaskError`);
+const e9 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#isMetamaskError`);
 
-const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useAuth`);
+const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useAuth`);
 
-const e11 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useClerk`);
+const e11 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useClerk`);
 
-const e12 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useEmailLink`);
+const e12 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useEmailLink`);
 
-const e13 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useMagicLink`);
+const e13 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useMagicLink`);
 
-const e14 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useOrganization`);
+const e14 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useOrganization`);
 
-const e15 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useOrganizationList`);
+const e15 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useOrganizationList`);
 
-const e16 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useOrganizations`);
+const e16 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useOrganizations`);
 
-const e17 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useSession`);
+const e17 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useSession`);
 
-const e18 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useSessionList`);
+const e18 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useSessionList`);
 
-const e19 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useSignIn`);
+const e19 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useSignIn`);
 
-const e20 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useSignUp`);
+const e20 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useSignUp`);
 
-const e21 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useUser`);
+const e21 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#useUser`);
 
-const e22 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#withClerk`);
+const e22 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#withClerk`);
 
-const e23 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#withSession`);
+const e23 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#withSession`);
 
-const e24 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#withUser`);
+const e24 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\hooks.js#withUser`);
 
 
 /***/ }),
@@ -866,7 +866,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -875,29 +875,29 @@ const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy
 const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#CreateOrganization`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#CreateOrganization`);
 
-const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#OrganizationList`);
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#OrganizationList`);
 
-const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#OrganizationProfile`);
+const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#OrganizationProfile`);
 
-const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#OrganizationSwitcher`);
+const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#OrganizationSwitcher`);
 
-const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignIn`);
+const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignIn`);
 
-const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignInButton`);
+const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignInButton`);
 
-const e6 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignInWithMetamaskButton`);
+const e6 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignInWithMetamaskButton`);
 
-const e7 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignOutButton`);
+const e7 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignOutButton`);
 
-const e8 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignUp`);
+const e8 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignUp`);
 
-const e9 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignUpButton`);
+const e9 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#SignUpButton`);
 
-const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#UserButton`);
+const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#UserButton`);
 
-const e11 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Mia\dev\riskov-projekt\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#UserProfile`);
+const e11 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\PROJEKTY\risko-master\node_modules\@clerk\nextjs\dist\esm\client-boundary\uiComponents.js#UserProfile`);
 
 
 /***/ }),
