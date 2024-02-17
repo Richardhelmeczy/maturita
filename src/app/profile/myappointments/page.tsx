@@ -7,7 +7,6 @@ import { deleteAppointment } from "../../../actions/delete-appointment";
 
 export default function Userprofile() {
   const userId = useUserId()
-  console.log(userId)
   const [userAppointments, setUserAppointments] = useState<any[]>([]);
   const fetchData = async () => {
     if (userId !== '') {

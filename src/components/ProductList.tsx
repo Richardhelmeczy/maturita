@@ -1,22 +1,24 @@
-import { createDB } from '../lib/db'
+"use client"
+
 import Link from 'next/link'
-
-async function getProducts() {
-  const db = createDB()
-
-  const products = await db.selectFrom('products').selectAll().execute()
-
-  return products
-}
+import { useUserId } from './GetUser'
+import { useEffect, useState } from 'react'
+import { getProducts } from '../actions/get-products'
+import { addToBasket } from '../actions/put-in-basket'
 
 type ProductProps = {
   id: number
   name: string
   description: string
   price: number
+  userId:string
 }
 
 function Product(props: ProductProps) {
+
+  const onSubmit = async (productId: number,userId:string) => {
+    addToBasket(productId,userId)
+  }
   return (
     <div className="block bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 m-2">
       <form className="flex-auto p-6">
@@ -31,6 +33,7 @@ function Product(props: ProductProps) {
             className="h-10 px-6 font-semibold rounded-md bg-black text-white flex justify-center items-center"
             type="submit"
             href={''}
+            onClick={() => addToBasket(props.id,props.userId)}
           >
             <span>Add</span>
           </Link>
@@ -46,13 +49,22 @@ function Product(props: ProductProps) {
   )
 }
 
-export async function ProductList() {
-  const products = await getProducts()
-
+export function ProductList() {
+  const userId=useUserId()
+  const [products, setProducts] = useState<any[]>([]);
+  const fetchData = async () => {
+    if (userId !== '') {
+      const profileAppointments = await getProducts();
+      setProducts(profileAppointments);
+    }
+  };
+  useEffect(() => {
+    fetchData();
+  }, [userId]);
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
       {products.map((p) => (
-        <Product key={p.id} id={p.id} name={p.name} description={p.description} price={p.price} />
+        <Product key={p.id} id={p.id} name={p.name} description={p.description} price={p.price} userId={userId} />
       ))}
     </div>
   )

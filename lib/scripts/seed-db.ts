@@ -8,7 +8,6 @@ async function seedDB() {
 
   await db.deleteFrom('productsReviews').execute()
   await db.deleteFrom('products').execute()
-  await db.deleteFrom('users').execute()
   await db.deleteFrom('doctorsAppointments').execute()
   await db.deleteFrom('doctors').execute()
 
