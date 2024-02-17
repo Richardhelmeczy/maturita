@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex mx-auto">
         {/* Left Side */}
         <div className="font-mono">
-          <h1 className="text-xl font-bold">Vitate na stranke naČas</h1>
+          <h1 className="text-3xl font-bold">Vitate na stranke NaČas</h1>
           <p>Prihlaste sa alebo nakupuje hned!</p>
           <div className="mt-2">
             <Link
