@@ -18,7 +18,15 @@
     },
     "d83ae14f47954ddfc3636fffee0a89aa87f9623b": {
       "workers": {
-        "app/profile/myappointments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%5D&__client_imported__=true!"
+        "app/profile/myappointments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%2C%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cdelete-appointment.ts%22%2C%5B%22deleteAppointment%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/profile/myappointments/page": "action-browser"
+      }
+    },
+    "8f076e73ec0a58ff3d672232c2c062dfbfabf9a9": {
+      "workers": {
+        "app/profile/myappointments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%2C%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cdelete-appointment.ts%22%2C%5B%22deleteAppointment%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/profile/myappointments/page": "action-browser"
@@ -26,5 +34,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "HZ1ibCBRv1I8SXoaVz+ZwMfp9+hD4LEV51Bqxx6qn5k="
+  "encryptionKey": "FroyAx1e61IlLktYEJRW4EHtI3Q822Q7xEPMC3aPk3M="
 }

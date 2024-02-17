@@ -28,11 +28,11 @@ export function DoctorAppointment({ id }: { id: number }) {
   return (
     <form className="flex flex-col" onSubmit={onSubmit}>
       <label htmlFor="name">Name</label>
-      <input id="name" {...register('name')} />
+      <input id="name" {...register('name')} required/>
       <label htmlFor="lastname">Lastname</label>
-      <input id="lastname" {...register('lastname')} />
+      <input id="lastname" {...register('lastname')} required/>
       <label htmlFor="date">Date</label>
-      <input id="date" {...register('date')} type="date" />
+      <input id="date" {...register('date')} type="date" required />
       <input type="submit" value="Create"/>
     </form>
   );
