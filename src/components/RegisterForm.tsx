@@ -1,6 +1,5 @@
 import { useForm } from 'react-hook-form';
 import { createUser } from '../actions/create-user';
-import { GetUser } from './GetUser';
 
 type FormData = {
   name: string;

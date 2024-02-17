@@ -1,8 +1,12 @@
 {
   "/not-found": "app/not-found.js",
+  "/shop/page": "app/shop/page.js",
   "/profile/page": "app/profile/page.js",
+  "/profile/basket/page": "app/profile/basket/page.js",
+  "/page": "app/page.js",
+  "/doctors/page": "app/doctors/page.js",
   "/login/page": "app/login/page.js",
+  "/profile/myappointments/page": "app/profile/myappointments/page.js",
   "/doctors/appointment/[id]/page": "app/doctors/appointment/[id]/page.js",
-  "/register/page": "app/register/page.js",
-  "/doctors/page": "app/doctors/page.js"
+  "/shop/[id]/page": "app/shop/[id]/page.js"
 }

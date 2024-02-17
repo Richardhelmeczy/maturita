@@ -1,11 +1,21 @@
 {
   "node": {
-    "d83af03422ae2d6a29ae7ae6bfd05accbca5e066": {
+    "0af0aff0532b2714512d22d9c3be2ba0802066e1": {
       "workers": {
-        "app/profile/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5CGetUserProfile.ts%22%2C%5B%22UserProfileDetail%22%5D%5D%5D&__client_imported__=true!"
+        "app/profile/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-info.ts%22%2C%5B%22userProfileInfo%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/profile/page": "action-browser"
+      }
+    },
+    "d83ae14f47954ddfc3636fffee0a89aa87f9623b": {
+      "workers": {
+        "app/profile/myappointments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%5D&__client_imported__=true!",
+        "app/profile/basket/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/profile/myappointments/page": "action-browser",
+        "app/profile/basket/page": "action-browser"
       }
     },
     "b67e615c7f313f6ec41ed6eb337fdeebc8916efb": {
@@ -15,16 +25,8 @@
       "layer": {
         "app/doctors/appointment/[id]/page": "action-browser"
       }
-    },
-    "f19891ef7fbd17f581c921afbf6b2b579cdfb117": {
-      "workers": {
-        "app/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Ccreate-user.ts%22%2C%5B%22createUser%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/register/page": "action-browser"
-      }
     }
   },
   "edge": {},
-  "encryptionKey": "J3Tk8OnRgMUnnIY7PLghu4tWcIDTZzoI2irzT/hzyzo="
+  "encryptionKey": "Qo6y9IYP0Z7LxmPhVjSQ5LgFBv4VR/yqfonUjbalT0Q="
 }
