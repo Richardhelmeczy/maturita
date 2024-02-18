@@ -10,10 +10,10 @@ async function getDoctors() {
 }
 
 type doctorsinfo = {
-  id: number
+  id: string
   name: string
   lastname: string
-  bio: string
+  adress: string
 }
 
 function Doctor(props: doctorsinfo) {
@@ -22,7 +22,7 @@ function Doctor(props: doctorsinfo) {
       <div className="text-lg font-semibold">
         {props.name} {props.lastname}
       </div>
-      <div>{props.bio}</div>
+      <div>{props.adress}</div>
       <Link href={`/doctors/appointment/${props.id}`}>Appointment</Link>
     </div>
   )
@@ -34,7 +34,7 @@ export async function DoctorList() {
   return (
     <div className="grid grid-cols-3 gap-4">
       {doctors.map((p) => (
-        <Doctor key={p.id} id={p.id} name={p.name} lastname={p.lastname} bio={p.bio} />
+        <Doctor key={p.id} id={p.id} name={p.firstname} lastname={p.lastname} adress={p.adress} />
       ))}
     </div>
   )

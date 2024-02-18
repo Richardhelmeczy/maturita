@@ -1,28 +1,23 @@
 'use server'
 
-import { revalidatePath } from 'next/cache'
 import { createDB } from '../lib/db'
 
 type CreateappointmentParams = {
-  name: string
-  lastname: string
   date: string
+  time: string
 }
 
-export async function createAppointment(appointment: CreateappointmentParams, doctorid: number , userid: string) {
+export async function createAppointment(appointment: CreateappointmentParams, doctorid: string, userid: string) {
   const db = createDB()
 
-  const createdProduct = await db
-    .insertInto('doctorsAppointments')
-    .values({
-      customerName: appointment.name,
-      customerLastname: appointment.lastname,
-      appointmentDate: appointment.date,
-      doctorId: doctorid,
-      userId: userid
-    })
-    .returningAll()
-    .executeTakeFirstOrThrow()
-
-  revalidatePath('')
+  const createdAppointment = await db
+      .insertInto('appointments')
+      .values({
+        doctorId: doctorid,
+        userId: userid,
+        date: appointment.date,
+        time: appointment.time
+      })
+      .returningAll()
+      .executeTakeFirstOrThrow()
 }

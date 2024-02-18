@@ -8,7 +8,7 @@ async function seedDB() {
 
   await db.deleteFrom('productsReviews').execute()
   await db.deleteFrom('products').execute()
-  await db.deleteFrom('doctorsAppointments').execute()
+  await db.deleteFrom('appointments').execute()
   await db.deleteFrom('doctors').execute()
 
   const products = []
@@ -45,11 +45,14 @@ async function seedDB() {
 
   const doctors = []
 
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < 1; i++) {
     doctors.push({
-      name: faker.person.firstName(),
+      id: 'user_2cPXGhoI9XD4fjzJL1VwMbZwqQp',
+      firstname: faker.person.firstName(),
       lastname: faker.person.lastName(),
-      bio: faker.person.bio(),
+      email: 'neviem@gmial.com',
+      adress: 'neviem',
+      phone: '00000000000'
     })
   }
 

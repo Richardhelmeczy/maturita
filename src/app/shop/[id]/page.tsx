@@ -9,7 +9,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
   const productId = parseInt(params.id)
 
   return (
-    <main>
+    <main className="flex min-h-screen flex-col">
       <div className="flex min-h-screen flex-col items-center p-24">
         <ProductDetail id={productId} />
       </div>

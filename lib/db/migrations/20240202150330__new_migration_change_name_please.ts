@@ -4,8 +4,11 @@ export async function up(db: Kysely<unknown>): Promise<void> {
   await sql`
     CREATE TABLE users (
       id TEXT PRIMARY KEY NOT NULL,
-      name TEXT NOT NULL,
-      lastname TEXT NOT NULL
+      firstname TEXT NOT NULL,
+      lastname TEXT NOT NULL,
+      email TEXT NOT NULL,
+      adress TEXT NOT NULL,
+      phone TEXT NOT NULL
     );
   `.execute(db);
 

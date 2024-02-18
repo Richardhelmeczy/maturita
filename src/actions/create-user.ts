@@ -1,25 +1,29 @@
-'use server'
+"use server"
 
-import { revalidatePath } from 'next/cache'
-import { createDB } from '../lib/db'
+import { revalidatePath } from 'next/cache';
+import { createDB } from '../lib/db';
 
 type CreateUserParams = {
-  name: string
-  lastname: string
-}
+  name: string;
+  lastname: string;
+};
 
 export async function createUser(user: CreateUserParams, id: string) {
-  const db = createDB()
+  const db = createDB();
 
-  const createdProduct = await db
+  // Corrected from 'firstnamename' to 'firstname'
+  const createdUser = await db
     .insertInto('users')
     .values({
       id: id,
-      name: user.name,
+      firstname: user.name,
       lastname: user.lastname,
+      email: 'nic',
+      adress: 'nic',
+      phone: "00000"
     })
     .returningAll()
-    .executeTakeFirstOrThrow()
+    .executeTakeFirstOrThrow();
 
-  revalidatePath('')
+  revalidatePath('');
 }

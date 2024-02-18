@@ -4,6 +4,15 @@ export type Generated<T> = T extends ColumnType<infer S, infer I, infer U>
   ? ColumnType<S, I | undefined, U>
   : ColumnType<T, T | undefined, T>;
 
+export interface Appointments {
+  id: Generated<number>;
+  doctorId: string;
+  userId: string;
+  date: string;
+  time: string;
+  confirmed: string | null;
+}
+
 export interface Basket {
   id: Generated<number>;
   productId: number;
@@ -11,19 +20,12 @@ export interface Basket {
 }
 
 export interface Doctors {
-  id: Generated<number>;
-  name: string;
+  id: string;
+  firstname: string;
   lastname: string;
-  bio: string;
-}
-
-export interface DoctorsAppointments {
-  id: Generated<number>;
-  customerName: string;
-  customerLastname: string;
-  appointmentDate: string;
-  doctorId: number;
-  userId: string;
+  email: string;
+  adress: string;
+  phone: string;
 }
 
 export interface Products {
@@ -43,14 +45,17 @@ export interface ProductsReviews {
 
 export interface Users {
   id: string;
-  name: string;
+  firstname: string;
   lastname: string;
+  email: string;
+  adress: string;
+  phone: string;
 }
 
 export interface DB {
+  appointments: Appointments;
   basket: Basket;
   doctors: Doctors;
-  doctorsAppointments: DoctorsAppointments;
   products: Products;
   productsReviews: ProductsReviews;
   users: Users;

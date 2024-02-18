@@ -6,10 +6,10 @@ async function getUserAppointments(id: string) {
   const db = createDB()
 
   const user = await db
-    .selectFrom('doctorsAppointments')
-    .leftJoin('doctors', 'doctors.id', 'doctorsAppointments.doctorId')
-    .select(['doctorsAppointments.id','doctors.name','doctors.lastname','doctorsAppointments.appointmentDate'])
-    .where('doctorsAppointments.userId', '=', id)
+    .selectFrom('appointments')
+    .leftJoin('doctors', 'doctors.id', 'appointments.doctorId')
+    .select(['doctors.firstname','doctors.lastname','appointments.date','appointments.time','appointments.id'])
+    .where('appointments.userId', '=', id)
     .execute();
 
   return user

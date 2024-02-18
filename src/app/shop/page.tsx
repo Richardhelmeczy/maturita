@@ -2,7 +2,7 @@ import { ProductList } from '../../components/ProductList'
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex min-h-screen flex-col">
       <div className="container mx-auto p-4">
         <ProductList />
       </div>

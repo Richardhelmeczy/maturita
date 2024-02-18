@@ -5,7 +5,7 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 200, 255, 250; /* Light cyan-green with even more blue */
-  --background-end-rgb: 150, 255, 230; /* Deeper light cyan-green with even more blue */
+  --background-end-rgb: 150, 200, 255; /* Deeper light cyan-green with even more blue */
 }
 
 

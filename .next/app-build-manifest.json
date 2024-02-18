@@ -1,25 +1,20 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
     "/profile/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/profile/page.js"
-    ],
-    "/profile/myappointments/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/profile/myappointments/page.js"
     ],
     "/login/page": [
       "static/chunks/webpack.js",
@@ -31,16 +26,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/register/page.js"
     ],
-    "/shop/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/shop/page.js"
-    ],
-    "/profile/basket/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/profile/basket/page.js"
-    ],
     "/doctors/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -51,10 +36,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/doctors/appointment/[id]/page.js"
     ],
-    "/shop/[id]/page": [
+    "/profile/myappointments/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/shop/[id]/page.js"
+      "static/chunks/app/profile/myappointments/page.js"
+    ],
+    "/shop/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/shop/page.js"
+    ],
+    "/profile/basket/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/profile/basket/page.js"
     ]
   }
 }

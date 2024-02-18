@@ -25,7 +25,7 @@ export default function Userprofile() {
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg overflow-hidden">
         <div className="p-4 flex flex-col items-center">
           <div className="text-2xl font-bold text-gray-800 mb-3">
-            {userInfo?.name} {userInfo?.lastname}
+            {userInfo?.firstname} {userInfo?.lastname}
           </div>
           <div className="mt-4 flex space-x-4"> {/* Adjusted for buttons to be next to each other */}
             <Link

@@ -1,14 +1,15 @@
 "use server"
 
+import { revalidatePath } from 'next/cache'
 import { createDB } from '../lib/db'
-export async function deleteAppointment(appointmentId: number) {
+export async function deleteAppointment(id: number) {
   const db = createDB()
 
   const deletedAppointment = await db
-    .deleteFrom('doctorsAppointments')
-    .where('id', '=', appointmentId)
+    .deleteFrom('appointments')
+    .where('id', '=', id)
     .returningAll()
     .executeTakeFirstOrThrow()
-
-
+    
+  revalidatePath('')
 }

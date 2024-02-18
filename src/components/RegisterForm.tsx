@@ -1,3 +1,4 @@
+"use client"
 import { useForm } from 'react-hook-form';
 import { createUser } from '../actions/create-user';
 
