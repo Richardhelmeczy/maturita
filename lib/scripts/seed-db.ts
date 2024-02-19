@@ -7,6 +7,7 @@ async function seedDB() {
   const db = createDB()
 
   await db.deleteFrom('productsReviews').execute()
+  await db.deleteFrom('basket').execute()
   await db.deleteFrom('products').execute()
   await db.deleteFrom('appointments').execute()
   await db.deleteFrom('doctors').execute()
@@ -44,16 +45,25 @@ async function seedDB() {
   }
 
   const doctors = []
+  doctors.push({
+    id: 'user_2cPXGhoI9XD4fjzJL1VwMbZwqQp',
+    firstname: faker.person.firstName(),
+    lastname: faker.person.lastName(),
+    email: 'neviem@gmial.com',
+    adress: 'Sustekova',
+    phone: '0944902321'
+  })
 
-  for (let i = 0; i < 1; i++) {
+  for (let i = 0; i < 6; i++) {
     doctors.push({
-      id: 'user_2cPXGhoI9XD4fjzJL1VwMbZwqQp',
+      id: i.toString(),
       firstname: faker.person.firstName(),
       lastname: faker.person.lastName(),
       email: 'neviem@gmial.com',
-      adress: 'neviem',
-      phone: '00000000000'
+      adress: 'Sustekova',
+      phone: '0944902321'
     })
+    
   }
 
   await db.insertInto('doctors').values(doctors).execute()

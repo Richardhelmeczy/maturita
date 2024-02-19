@@ -90,10 +90,10 @@ export function DoctorAppointment({ id }: { id: string }) {
           })}
         </select>
       </div>
-      <table className="max-w-4xl mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+      <table className="max-w-4xl mx-auto bg-white shadow-md rounded-lg overflow-hidden ">
         <thead>
           <tr>
-            <th>Time</th>
+            <th className='p-2'>Time</th>
             {visibleDates.map(date => (
               <th key={date} className='p-2'>{date}</th>
             ))}
@@ -102,13 +102,13 @@ export function DoctorAppointment({ id }: { id: string }) {
         <tbody>
           {times.map(time => (
             <tr key={time}>
-              <td>{time}</td>
+              <td className='pl-5'>{time}</td>
               {visibleDates.map(date => (
-                <td key={date}>
+                <td key={date}className='px-2'>
                   {isSlotFull(date, time) ? (
-                    <span className='bg-red-200 rounded-xl p-2 text-red-800'>Full</span>
+                    <span className='bg-red-200 rounded-xl p-1 text-red-800 m-1 ml-7'>Full</span>
                   ) : (
-                    <button className='bg-lime-200 rounded-xl p-2'
+                    <button className='bg-lime-200 rounded-xl p-1 m-1 ml-7'
                     onClick={() => createAppointmentForSlot(date, time)}
                     >Free</button>
                   )}
