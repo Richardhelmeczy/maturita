@@ -11,7 +11,6 @@ type CreateUserParams = {
 export async function createUser(user: CreateUserParams, id: string) {
   const db = createDB();
 
-  // Corrected from 'firstnamename' to 'firstname'
   const createdUser = await db
     .insertInto('users')
     .values({

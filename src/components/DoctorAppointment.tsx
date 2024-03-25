@@ -35,7 +35,8 @@ export function DoctorAppointment({ id }: { id: string }) {
     setVisibleDates(dates.slice(visibleIndex, visibleIndex + 7));
   }, [dates, visibleIndex]);
 
-  const userHasAppointment = appointments.some(appointment => appointment.userId === userId);
+  const userHasAppointment = appointments?.some(appointment => appointment.userId === userId);
+
 
   const createAppointmentForSlot = async (date: string, time: string) => {
     if (userId && !userHasAppointment) {

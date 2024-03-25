@@ -20,7 +20,7 @@ function Product(props: ProductProps) {
     addToBasket(productId,userId)
   }
   return (
-    <div className="block bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 m-2">
+    <div className="block bg-white border border-gray-200">
       <form className="flex-auto p-6">
         <div className="flex flex-wrap">
           <h1 className="flex-auto text-lg font-semibold text-slate-900">{props.name}</h1>

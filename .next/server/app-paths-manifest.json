@@ -1,7 +1,4 @@
 {
-  "/doctors/page": "app/doctors/page.js",
-  "/profile/page": "app/profile/page.js",
-  "/profile/basket/page": "app/profile/basket/page.js",
-  "/shop/page": "app/shop/page.js",
+  "/page": "app/page.js",
   "/doctors/appointment/[id]/page": "app/doctors/appointment/[id]/page.js"
 }
