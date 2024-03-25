@@ -19,7 +19,7 @@ export async function up(db: Kysely<unknown>): Promise<void> {
       user_id TEXT NOT NULL,
       date text NOT NULL,
       time TEXT NOT NULL,
-      confirmed text,
+      confirmed INTEGER NOT NULL,
       FOREIGN KEY (doctor_id) REFERENCES doctors(id),
       FOREIGN KEY (user_id) REFERENCES users(id)
     );

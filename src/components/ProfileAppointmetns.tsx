@@ -37,6 +37,7 @@ export default function ProfileAppointments() {
             <div key={appo.id} className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <div>{appo.firstname} {appo.lastname}</div>
               <div>{appo.date} {appo.time}</div>
+              <div></div>
             <button
               className="bg-red-500 text-white rounded hover:bg-red-700 p-2"
               onClick={() => handleDeleteAppointment(appo.id)} // Use the new handler
