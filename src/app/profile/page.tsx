@@ -1,24 +1,10 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { useUserId } from "../../components/GetUser";
-import { userProfileInfo } from "../../actions/get-user-info";
+"use client"
 import Link from "next/link";
+import UserProfile from "../../components/Profile";
 
-export default function Userprofile() {
-  const userId = useUserId();
-  console.log(userId);
-  const [userInfo, setUserInfo] = useState<any>();
 
-  useEffect(() => {
-    if (userId !== "") {
-      const fetchData = async () => {
-        const profileDetail = await userProfileInfo(userId);
-        setUserInfo(profileDetail);
-      };
-      fetchData();
-    }
-  }, [userId]);
+export default function Profile() {
+  const userInfo=UserProfile()
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
