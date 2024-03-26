@@ -8,9 +8,17 @@
         "app/profile/page": "action-browser"
       }
     },
+    "f19891ef7fbd17f581c921afbf6b2b579cdfb117": {
+      "workers": {
+        "app/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Ccreate-user.ts%22%2C%5B%22createUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      }
+    },
     "d83ae14f47954ddfc3636fffee0a89aa87f9623b": {
       "workers": {
-        "app/profile/myappointments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%2C%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cdelete-appointment.ts%22%2C%5B%22deleteAppointment%22%5D%5D%5D&__client_imported__=true!"
+        "app/profile/myappointments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cdelete-appointment.ts%22%2C%5B%22deleteAppointment%22%5D%5D%2C%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/profile/myappointments/page": "action-browser"
@@ -18,10 +26,34 @@
     },
     "8f076e73ec0a58ff3d672232c2c062dfbfabf9a9": {
       "workers": {
-        "app/profile/myappointments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%2C%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cdelete-appointment.ts%22%2C%5B%22deleteAppointment%22%5D%5D%5D&__client_imported__=true!"
+        "app/profile/myappointments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cdelete-appointment.ts%22%2C%5B%22deleteAppointment%22%5D%5D%2C%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/profile/myappointments/page": "action-browser"
+      }
+    },
+    "df15a91f94663a1fec63819c7851d441973e6e70": {
+      "workers": {
+        "app/doctors/appointment/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Ccreate-appointment.ts%22%2C%5B%22createAppointment%22%5D%5D%2C%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-appointments.ts%22%2C%5B%22getAppointments%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/doctors/appointment/[id]/page": "action-browser"
+      }
+    },
+    "b67e615c7f313f6ec41ed6eb337fdeebc8916efb": {
+      "workers": {
+        "app/doctors/appointment/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Ccreate-appointment.ts%22%2C%5B%22createAppointment%22%5D%5D%2C%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-appointments.ts%22%2C%5B%22getAppointments%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/doctors/appointment/[id]/page": "action-browser"
+      }
+    },
+    "0192662646fe985ec808425b5d6b2024a02c43d3": {
+      "workers": {
+        "app/profile/basket/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-user-basket.ts%22%2C%5B%22getUserBasket%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/profile/basket/page": "action-browser"
       }
     },
     "8a609bcbe21d3c13043531feb682d9162234a51e": {
@@ -39,24 +71,8 @@
       "layer": {
         "app/shop/page": "action-browser"
       }
-    },
-    "b67e615c7f313f6ec41ed6eb337fdeebc8916efb": {
-      "workers": {
-        "app/doctors/appointment/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Ccreate-appointment.ts%22%2C%5B%22createAppointment%22%5D%5D%2C%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-appointments.ts%22%2C%5B%22getAppointments%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/doctors/appointment/[id]/page": "action-browser"
-      }
-    },
-    "df15a91f94663a1fec63819c7851d441973e6e70": {
-      "workers": {
-        "app/doctors/appointment/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Ccreate-appointment.ts%22%2C%5B%22createAppointment%22%5D%5D%2C%5B%22D%3A%5C%5CPROJEKTY%5C%5Crisko-master%5C%5Csrc%5C%5Cactions%5C%5Cget-appointments.ts%22%2C%5B%22getAppointments%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/doctors/appointment/[id]/page": "action-browser"
-      }
     }
   },
   "edge": {},
-  "encryptionKey": "66EuUr5MgUVQ/YfQYc2PKxi4iJBzIfCUxDYpLDzLv4M="
+  "encryptionKey": "7Dq02N/syCgzDGoGIrf3NQMKJ8xu7NNYjBGuMpUtmlE="
 }

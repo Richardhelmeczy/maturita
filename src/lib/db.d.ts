@@ -10,7 +10,7 @@ export interface Appointments {
   userId: string;
   date: string;
   time: string;
-  confirmed: string | null;
+  confirmed: number;
 }
 
 export interface Basket {

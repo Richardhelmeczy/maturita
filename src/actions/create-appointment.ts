@@ -16,7 +16,8 @@ export async function createAppointment(appointment: CreateappointmentParams, do
         doctorId: doctorid,
         userId: userid,
         date: appointment.date,
-        time: appointment.time
+        time: appointment.time,
+        confirmed: 0
       })
       .returningAll()
       .executeTakeFirstOrThrow()
