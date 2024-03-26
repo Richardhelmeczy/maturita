@@ -1,12 +1,22 @@
 "use server"
-
-import { createDB } from "../lib/db"
+import { createDB } from "../lib/db";
 
 export async function userProfileInfo(id: string) {
-  const db = createDB()
+  const db = createDB();
 
-  const user = await db.selectFrom('users').selectAll().where('id', '=', id).executeTakeFirstOrThrow()
+  const doctorInfo = await db.selectFrom('doctors')
+    .selectAll()
+    .where('id', '=', id)
+    .executeTakeFirst();
 
-  return user
+  if (doctorInfo) {
+    return doctorInfo;
+  }
 
+  const userInfo = await db.selectFrom('users')
+    .selectAll()
+    .where('id', '=', id)
+    .executeTakeFirstOrThrow();
+
+  return userInfo;
 }
