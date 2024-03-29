@@ -7,7 +7,7 @@ async function getUserAppointments(id: string) {
   // First, try to fetch appointments where the user is the doctor
   const doctorAppointments = await db
     .selectFrom('appointments')
-    .leftJoin('users', 'users.id', 'appointments.userId')  // Assuming 'users' are the patients
+    .leftJoin('users', 'users.id', 'appointments.userId')
     .select([
       'appointments.date',
       'appointments.time',
@@ -20,9 +20,10 @@ async function getUserAppointments(id: string) {
     .where('appointments.doctorId', '=', id)
     .execute();
 
-  if (doctorAppointments) {
-    return doctorAppointments;
-  }
+    if (doctorAppointments.length > 0) {
+      return doctorAppointments;
+    }
+  
 
   const patientAppointments = await db
     .selectFrom('appointments')

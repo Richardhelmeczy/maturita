@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useUserId } from "./GetUser";
 import { userProfileAppointments } from "../actions/get-user-appointments";
 import { deleteAppointment } from "../actions/delete-appointment";
+import { acceptAppointment } from "../actions/accept-appointment";
 
 export default function ProfileAppointments() {
   const userId = useUserId();
@@ -34,7 +35,7 @@ export default function ProfileAppointments() {
 
   const handleAcceptAppointment = async (id: number) => {
     try {
-      //await acceptAppointment(id);
+      await acceptAppointment(id);
       fetchData(); // Refresh the appointments list
     } catch (error) {
       console.error('Failed to accept appointment:', error);
@@ -59,7 +60,12 @@ export default function ProfileAppointments() {
             <div key={appo.id} className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <div>Pacient: {appo.patientFirstName} {appo.patientLastName}</div>
               <div>{appo.date} at {appo.time}</div>
-              {/* Accept and Decline buttons shown here */}
+              <button
+              className="mt-4 bg-green-500 text-white rounded hover:bg-red-700 p-2"
+              onClick={() => handleAcceptAppointment(appo.id)}
+              >
+                Accept
+              </button>
               <button
               className="mt-4 bg-red-500 text-white rounded hover:bg-red-700 p-2"
               onClick={() => handleDeleteAppointment(appo.id)}
@@ -79,7 +85,7 @@ export default function ProfileAppointments() {
       <div className="grid grid-cols-3 gap-4">
         {userAppointments.map((appo) => (
           <div key={appo.id} className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <div>{appo.doctorsFirstName} {appo.doctorsLastName}</div>
+            <div>{appo.doctorFirstName} {appo.doctorLastName}</div>
             <div>{appo.date} at {appo.time}</div>
             <div>
               {appo.confirmed == 0 ? (
