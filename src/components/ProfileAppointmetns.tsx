@@ -5,6 +5,7 @@ import { useUserId } from "./GetUser";
 import { userProfileAppointments } from "../actions/get-user-appointments";
 import { deleteAppointment } from "../actions/delete-appointment";
 import { acceptAppointment } from "../actions/accept-appointment";
+import { declineAppointment } from "../actions/decline-appointment";
 
 export default function ProfileAppointments() {
   const userId = useUserId();
@@ -36,7 +37,7 @@ export default function ProfileAppointments() {
   const handleAcceptAppointment = async (id: number) => {
     try {
       await acceptAppointment(id);
-      fetchData(); // Refresh the appointments list
+      fetchData();
     } catch (error) {
       console.error('Failed to accept appointment:', error);
     }
@@ -44,8 +45,8 @@ export default function ProfileAppointments() {
 
   const handleDeclineAppointment = async (id: number) => {
     try {
-      //await declineAppointment(id);
-      fetchData(); // Refresh the appointments list
+      await declineAppointment(id);
+      fetchData();
     } catch (error) {
       console.error('Failed to decline appointment:', error);
     }
@@ -65,6 +66,12 @@ export default function ProfileAppointments() {
               onClick={() => handleAcceptAppointment(appo.id)}
               >
                 Accept
+              </button>
+              <button
+              className="mt-4 bg-yellow-500 text-white rounded hover:bg-red-700 p-2"
+              onClick={() => handleDeclineAppointment(appo.id)}
+              >
+                Decline
               </button>
               <button
               className="mt-4 bg-red-500 text-white rounded hover:bg-red-700 p-2"
