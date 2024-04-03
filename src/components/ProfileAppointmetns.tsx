@@ -54,30 +54,30 @@ export default function ProfileAppointments() {
 
   if (isDoctor) {
     return (
-      <div className="flex min-h-screen flex-col items-center p-24">
-        <p>Moje prihlasenia :</p>
-        <div className="grid grid-cols-3 gap-4">
+      <div className="flex min-h-[91vh] flex-col items-center p-10">
+        <p className="text-3xl font-bold">Moje objednávky</p>
+        <div className="grid grid-cols-3 gap-4 mt-6">
           {userAppointments.map((appo) => (
-            <div key={appo.id} className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div key={appo.id} className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 ">
               <div>Pacient: {appo.patientFirstName} {appo.patientLastName}</div>
-              <div>{appo.date} at {appo.time}</div>
+              <div>{appo.date} o {appo.time}</div>
               <button
-              className="mt-4 bg-green-500 text-white rounded hover:bg-red-700 p-2"
+              className="mt-4 button"
               onClick={() => handleAcceptAppointment(appo.id)}
               >
-                Accept
+                Akceptovať
               </button>
               <button
-              className="mt-4 bg-yellow-500 text-white rounded hover:bg-red-700 p-2"
+              className="mt-4 button"
               onClick={() => handleDeclineAppointment(appo.id)}
               >
-                Decline
+                Odmietnuť
               </button>
               <button
-              className="mt-4 bg-red-500 text-white rounded hover:bg-red-700 p-2"
+              className="mt-4 button"
               onClick={() => handleDeleteAppointment(appo.id)}
               >
-                Cancel
+                Zrušiť
               </button>
             </div>
           ))}
@@ -87,27 +87,27 @@ export default function ProfileAppointments() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center p-24">
-      <p>My Appointments:</p>
-      <div className="grid grid-cols-3 gap-4">
+    <div className="flex h-[91vh] flex-col items-center p-10">
+      <p className="text-3xl font-bold">Moje objednávky</p>
+      <div className="grid grid-cols-3 gap-4 mt-6">
         {userAppointments.map((appo) => (
-          <div key={appo.id} className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <div key={appo.id} className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 ">
             <div>{appo.doctorFirstName} {appo.doctorLastName}</div>
             <div>{appo.date} at {appo.time}</div>
             <div>
               {appo.confirmed == 0 ? (
-                <span className="text-yellow-500">Not Accepted</span>
+                <span className="text-yellow-500">Neakceptované</span>
               ) : appo.confirmed === 1 ? (
-                <span className="text-green-500">Accepted</span>
+                <span className="text-green-500">Akceptované</span>
               ) : (
-                <span className="text-red-500">Unknown Status</span>
+                <span className="text-red-500">Neznáme</span>
               )}
             </div>
             <button
-              className="mt-4 bg-red-500 text-white rounded hover:bg-red-700 p-2"
+              className="mt-4 button"
               onClick={() => handleDeleteAppointment(appo.id)}
             >
-              Cancel
+              Zrušiť
             </button>
           </div>
         ))}

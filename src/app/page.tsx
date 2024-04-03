@@ -2,24 +2,23 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col mt-40">
-      <div className="flex mx-auto">
-        {/* Left Side */}
-        <div className="font-mono">
+    <main className="flex flex-col h-[91vh] justify-center items-center">
+      <div className="flex mx-auto w-fit h-fit">
+        <div className="font-mono flex flex-col justify-center">
           <h1 className="text-3xl font-bold">Vitajte na stránke NaČas</h1>
           <p>Prihlaste sa alebo nakupuje hned!</p>
           <div className="mt-10">
             <Link
               href={`/doctors`}
-              className="bg-green-300 p-2 rounded-lg hover:bg-green-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 transition duration-150 ease-in-out mr-2 mt-5"
+              className="secondary mr-4 mt-5"
             >
-              Chcem sa objednat !
+              Chcem sa objednať!
             </Link>
             <Link
               href={`/shop`}
-              className="bg-green-300 p-2 rounded-lg hover:bg-green-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 transition duration-150 ease-in-out"
+              className="secondary"
             >
-              Nakupuj Hned!
+              Nakupuj hneď!
             </Link>
           </div>
         </div>

@@ -2,8 +2,7 @@ import { DoctorList } from '../../components/DoctorList'
 export default function Home() {
   return (
     <main>
-      <div className="flex min-h-screen flex-col items-center p-24">
-        <div>Doctors List:</div>
+      <div className="flex min-h-[91vh] py-6 flex-col items-center justify-center ">
         <DoctorList />
       </div>
     </main>

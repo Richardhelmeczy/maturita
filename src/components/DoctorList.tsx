@@ -26,10 +26,15 @@ function Doctor(props: doctorsinfo) {
       </div>
       <div>{props.mail}</div>
       <div>{props.phone}</div>
-      <div className='mb-3'>{props.adress}</div>
-      <Link href={`/doctors/appointment/${props.id}`} className='bg-teal-400 border-gray-200 hover:bg-teal-500 hover:scale-195 rounded-xl p-2'>Appointment</Link>
+      <div className="mb-3">{props.adress}</div>
+      <Link
+        href={`/doctors/appointment/${props.id}`}
+        className="bg-[#96C8FF] border-gray-200 text-white hover:text-black hover:scale-195 rounded-xl p-2"
+      >
+        Objednať sa
+      </Link>
     </div>
-  )
+  );
 }
 
 export async function DoctorList() {

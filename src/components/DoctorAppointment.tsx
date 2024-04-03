@@ -107,11 +107,11 @@ export function DoctorAppointment({ id }: { id: string }) {
               {visibleDates.map(date => (
                 <td key={date}className='px-2'>
                   {isSlotFull(date, time) ? (
-                    <span className='bg-red-200 rounded-xl p-1 text-red-800 m-1 ml-7'>Full</span>
+                    <span className='bg-red-200 rounded-xl p-1 text-red-800 m-1 ml-7'>Obsadené</span>
                   ) : (
                     <button className='bg-lime-200 rounded-xl p-1 m-1 ml-7'
                     onClick={() => createAppointmentForSlot(date, time)}
-                    >Free</button>
+                    >Voľné</button>
                   )}
                 </td>
               ))}
@@ -120,8 +120,8 @@ export function DoctorAppointment({ id }: { id: string }) {
         </tbody>
       </table>
       <div>
-        <button onClick={handlePrevClick} disabled={visibleIndex === 0} className='bg-blue-300 p-3 rounded-xl mx-3'>Prev</button>
-        <button onClick={handleNextClick} disabled={visibleIndex >= dates.length - 7} className='bg-blue-300 p-3 rounded-xl mx-3'>Next</button>
+        <button onClick={handlePrevClick} disabled={visibleIndex === 0} className='bg-blue-300 p-3 rounded-xl mx-3'>Predchádzajúce</button>
+        <button onClick={handleNextClick} disabled={visibleIndex >= dates.length - 7} className='bg-blue-300 p-3 rounded-xl mx-3'>Ďaľšie</button>
       </div>
     </>
   );

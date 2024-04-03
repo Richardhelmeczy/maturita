@@ -10,7 +10,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
   return (
     <main className="flex min-h-screen flex-col">
-      <div className="flex min-h-screen flex-col items-center p-24">
+      <div className="flex min-h-screen flex-col items-center justify-center p-6">
         <ProductDetail id={productId} />
       </div>
     </main>

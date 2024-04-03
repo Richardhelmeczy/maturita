@@ -9,14 +9,14 @@ const Login = () => {
 
   if (userId != '') {
     return (
-      <main className="flex min-h-screen flex-col items-center p-24">
+      <main className="flex h-[91vh] flex-col items-center justify-center">
           <RegisterUser id={userId} />
       </main>
     )
   }
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <p>please Login</p>
+    <main className="flex h-[91vh] flex-col items-center justify-center">
+      <p>Prihláste sa prosím.</p>
     </main>
   )
 };

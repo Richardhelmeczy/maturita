@@ -18,3 +18,41 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.button {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 15px;
+  font-weight: bold;
+  color: #96C8FF;
+  transition: all;
+  animation-duration: 300ms;
+  background-color: white;
+  border: 2px solid #96C8FF;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #96C8FF;
+  color: white;
+}
+
+.secondary {
+  background-color: white;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 10px;
+  transition: all;
+  animation-duration: 300ms;
+  width: fit-content;
+  height: fit-content;
+  font-weight: bold;
+}
+
+.secondary:hover {
+  background-color: #96C8FF;
+  color: white;
+}

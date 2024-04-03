@@ -45,14 +45,24 @@ async function seedDB() {
   }
 
   const doctors = []
-  doctors.push({
-    id: 'user_2cPXGhoI9XD4fjzJL1VwMbZwqQp',
-    firstname: faker.person.firstName(),
-    lastname: faker.person.lastName(),
-    email: 'neviem@gmial.com',
-    adress: 'Sustekova',
-    phone: '0944902321'
-  })
+  doctors.push(
+    {
+      id: "user_2cPXGhoI9XD4fjzJL1VwMbZwqQp",
+      firstname: faker.person.firstName(),
+      lastname: faker.person.lastName(),
+      email: "neviem@gmial.com",
+      adress: "Sustekova",
+      phone: "0944902321",
+    },
+    {
+      id: "user_2cd4darbRsBgTdKneZcSI3Er33Z",
+      firstname: faker.person.firstName(),
+      lastname: faker.person.lastName(),
+      email: "neviem@gmial.com",
+      adress: "Sustekova",
+      phone: "0944902321",
+    }
+  );
 
   for (let i = 0; i < 6; i++) {
     doctors.push({
