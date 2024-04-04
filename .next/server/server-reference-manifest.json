@@ -1,5 +1,21 @@
 {
   "node": {
+    "b6b8ac3964fc99b3ee54890ab102ca0d808c0176": {
+      "workers": {
+        "app/shop/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cget-products.ts%22%2C%5B%22getProducts%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cput-in-basket.ts%22%2C%5B%22addToBasket%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/shop/page": "action-browser"
+      }
+    },
+    "c371acb1b631b7913f06814ad94e7347dca4a86b": {
+      "workers": {
+        "app/shop/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cget-products.ts%22%2C%5B%22getProducts%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cput-in-basket.ts%22%2C%5B%22addToBasket%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/shop/page": "action-browser"
+      }
+    },
     "75e49bd6133917761c9cfbfd5439006fbe1be8b1": {
       "workers": {
         "app/profile/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cget-user-info.ts%22%2C%5B%22userProfileInfo%22%5D%5D%5D&__client_imported__=true!"
@@ -8,12 +24,20 @@
         "app/profile/page": "action-browser"
       }
     },
-    "d056b3948fcc1756bcceff84608ca6ee5b8ce86c": {
+    "2646485377784cff01777895a232ae0890322ec7": {
       "workers": {
-        "app/profile/myappointments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cdelete-appointment.ts%22%2C%5B%22deleteAppointment%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Caccept-appointment.ts%22%2C%5B%22acceptAppointment%22%5D%5D%5D&__client_imported__=true!"
+        "app/profile/basket/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cget-user-basket.ts%22%2C%5B%22getUserBasket%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cremove-product.ts%22%2C%5B%22removeProduct%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/profile/myappointments/page": "action-browser"
+        "app/profile/basket/page": "action-browser"
+      }
+    },
+    "e372aba6b5a303b3fbe355380a093c4127465301": {
+      "workers": {
+        "app/profile/basket/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cget-user-basket.ts%22%2C%5B%22getUserBasket%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cremove-product.ts%22%2C%5B%22removeProduct%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/profile/basket/page": "action-browser"
       }
     },
     "43eee136236f0707b14df38d5ccc632182d22e80": {
@@ -32,20 +56,12 @@
         "app/profile/myappointments/page": "action-browser"
       }
     },
-    "c371acb1b631b7913f06814ad94e7347dca4a86b": {
+    "d056b3948fcc1756bcceff84608ca6ee5b8ce86c": {
       "workers": {
-        "app/shop/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cget-products.ts%22%2C%5B%22getProducts%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cput-in-basket.ts%22%2C%5B%22addToBasket%22%5D%5D%5D&__client_imported__=true!"
+        "app/profile/myappointments/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cget-user-appointments.ts%22%2C%5B%22userProfileAppointments%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cdelete-appointment.ts%22%2C%5B%22deleteAppointment%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Caccept-appointment.ts%22%2C%5B%22acceptAppointment%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/shop/page": "action-browser"
-      }
-    },
-    "b6b8ac3964fc99b3ee54890ab102ca0d808c0176": {
-      "workers": {
-        "app/shop/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cget-products.ts%22%2C%5B%22getProducts%22%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cput-in-basket.ts%22%2C%5B%22addToBasket%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/shop/page": "action-browser"
+        "app/profile/myappointments/page": "action-browser"
       }
     },
     "a9969142328230ff0df9ba5dc61640a82998890d": {
@@ -63,24 +79,8 @@
       "layer": {
         "app/doctors/appointment/[id]/page": "action-browser"
       }
-    },
-    "2646485377784cff01777895a232ae0890322ec7": {
-      "workers": {
-        "app/profile/basket/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Cget-user-basket.ts%22%2C%5B%22getUserBasket%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/profile/basket/page": "action-browser"
-      }
-    },
-    "7b2d857cf9c943e250b79c50db05837c9c1f4186": {
-      "workers": {
-        "app/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CMia%5C%5Cdev%5C%5Criskov-projekt%5C%5Csrc%5C%5Cactions%5C%5Ccreate-user.ts%22%2C%5B%22createUser%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/register/page": "action-browser"
-      }
     }
   },
   "edge": {},
-  "encryptionKey": "zQaAQXUCso/ufLr0OtSBEMAk1+31At4eeWScy09yvo4="
+  "encryptionKey": "xQylxPHwjDBlhTHFbvIFyO1MQDIff3nJiWudIVMgWgU="
 }

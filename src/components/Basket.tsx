@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useUserId } from "./GetUser";
 import { getUserBasket } from "../actions/get-user-basket";
+import { removeProduct } from "../actions/remove-product";
 
 export default function Basket() {
   const userId = useUserId();
@@ -18,6 +19,16 @@ export default function Basket() {
     }
   }, [userId]);
 
+  const onSubmit = (id: number) => {
+    try {
+      removeProduct(id);
+    } catch (error) {
+      console.log("aaaaaa ", error);
+    } finally {
+      window.location.reload();
+    }
+  };
+
   return (
     <div className="flex min-h-[91vh] flex-col items-center p-10">
       <p className="font-bold text-3xl">Košík</p>
@@ -25,15 +36,16 @@ export default function Basket() {
         {UserProducts.map((pr) => (
           <div
             key={pr.id}
-            className="flex max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 "
+            className="flex max-w-sm p-6 justify-between bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 "
           >
             <div>
-              {pr.name} {pr.lastname} {pr.price}€
+              {pr.name} {pr.lastname} <br /> {pr.price}€
             </div>
             <div>{pr.appointmentDate}</div>
             <button
               className="button my-auto"
-              //onClick={() => removeProuct(appo.id)}
+              onClick={() => onSubmit(pr.id)}
+              // onClick={() => console.log(pr.id)}
             >
               Zrušiť
             </button>

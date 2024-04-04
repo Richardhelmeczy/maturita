@@ -64,10 +64,8 @@ export function ProductList() {
   const userId = useUserId();
   const [products, setProducts] = useState<any[]>([]);
   const fetchData = async () => {
-    if (userId !== "") {
-      const profileAppointments = await getProducts();
-      setProducts(profileAppointments);
-    }
+    const profileAppointments = await getProducts();
+    setProducts(profileAppointments);
   };
   useEffect(() => {
     fetchData();

@@ -40,6 +40,16 @@ body {
   color: white;
 }
 
+.fade-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+
 .secondary {
   background-color: white;
   color: black;
@@ -55,4 +65,6 @@ body {
 .secondary:hover {
   background-color: #96C8FF;
   color: white;
+  border: 1px solid white;
+  box-shadow: 3px 3px 10px white;
 }

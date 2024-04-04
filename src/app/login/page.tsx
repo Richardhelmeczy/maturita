@@ -13,7 +13,7 @@ const Login = () => {
           <div className="p-2 flex flex-col items-center">
             {!isSignedIn && (
               <div className="button">
-                <SignInButton />
+                <SignInButton redirectUrl="/profile" />
               </div>
             )}
             {isSignedIn && (

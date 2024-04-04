@@ -37,9 +37,9 @@ export default function Profile() {
                 {!isSignedIn && <SignInButton />}
                 {isSignedIn && (
                   <>
-                    <div className="button">
+                    <Link href="/login" className="button">
                       <SignOutButton>Odhlásiť sa</SignOutButton>
-                    </div>
+                    </Link>
                   </>
                 )}
               </div>

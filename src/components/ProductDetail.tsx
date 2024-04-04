@@ -27,9 +27,9 @@ export async function ProductDetail({ id }: ProductDetailProps) {
   return (
     <div className="max-w-4xl p-4 mx-auto bg-white shadow-md rounded-lg overflow-hidden">
       <div className="flex">
-        <div className="flex-none bg-gray-200 flex items-center justify-center p-2 mr-2 h-64 w-96 rounded-lg">
+        <div className="flex-none  flex items-center justify-center p-2 mr-2 h-64 w-96 rounded-lg">
           <img
-            src="https://www.pcworld.com/wp-content/uploads/2023/04/213624-executive_business_suits_18_original-3.jpg?quality=50&strip=all"
+            src="/no-photo.jpg"
             className="rounded-lg"
           />
         </div>
