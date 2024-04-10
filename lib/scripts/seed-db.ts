@@ -8,6 +8,7 @@ async function seedDB() {
 
   await db.deleteFrom("productsReviews").execute();
   await db.deleteFrom("basket").execute();
+  await db.deleteFrom("productsPhotos").execute();
   await db.deleteFrom("products").execute();
   await db.deleteFrom("appointments").execute();
   await db.deleteFrom("doctors").execute();
@@ -248,27 +249,58 @@ async function seedDB() {
     .selectFrom("products")
     .select("id")
     .execute();
-
-  const reviews = [];
-
-  for (const createdProduct of createdProducts) {
-    const nReviews = faker.datatype.number({ min: 0, max: 5 });
-
-    for (let i = 0; i < nReviews; i++) {
-      reviews.push({
-        productId: createdProduct.id,
-        rating: faker.datatype.number({ min: 1, max: 5 }),
-        content: faker.lorem.sentences(
-          faker.datatype.number({ min: 1, max: 5 })
-        ),
-        username: faker.internet.userName(),
-      });
+    
+    const reviews = []
+    
+    for (const createdProduct of createdProducts) {
+      console.log(createdProduct.id)
+      
+      const nReviews = faker.number.int({ min: 0, max: 5 })
+      
+      for (let i = 0; i < nReviews; i++) {
+        reviews.push({
+          productId: createdProduct.id,
+          rating: faker.number.int({ min: 1, max: 5 }),
+          content: faker.lorem.sentences({ min: 1, max: 5 }),
+          username: faker.internet.userName(),
+        })
+      }
+      
     }
-  }
+    
+    const photos = []
+    photos.push(
+      {
+        productId: 1,
+      url:
+        "https://www.tonerpartner.sk/userdata/products/1187/1605138_0c-fdd16ed6e1bfd91.jpg",
+      },
+      {
+        productId: 2,
+      url:
+        "https://www.zdravplus.sk/wp-content/uploads/2022/04/checkme-pod-Bild3.jpg",
+      },
+      {
+        productId: 3,
+      url:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiz4XCF-iL7ySMixRvqy23tWiyyz7DvS2_pXlP9B3rQg&s",
+      },
+      {
+        productId: 4,
+      url:
+        "https://cdn.notinoimg.com/social/simplymed/769503433417_01-o/simplymed-termofor-2-l-termofor-na-teplu-a-studenu-terapiu___230512.jpg",
+      },
+    )
 
-  if (reviews.length > 0) {
-    await db.insertInto("productsReviews").values(reviews).execute();
-  }
+
+    if (reviews.length > 0) {
+      await db.insertInto('productsReviews').values(reviews).execute()
+    }
+    
+    if (photos.length > 0) {
+      await db.insertInto('productsPhotos').values(photos).execute()
+    }
+    
 
   const doctors = [];
   doctors.push(

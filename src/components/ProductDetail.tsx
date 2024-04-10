@@ -16,6 +16,15 @@ async function getProductReviews(id: number) {
   return reviews
 }
 
+async function getProductPhotos(id: number) {
+  const db = createDB()
+
+  const reviews = await db.selectFrom('productsPhotos').selectAll().where('productId', '=', id).executeTakeFirstOrThrow()
+
+  return reviews
+}
+
+
 type ProductDetailProps = {
   id: number
 }
@@ -23,15 +32,17 @@ type ProductDetailProps = {
 export async function ProductDetail({ id }: ProductDetailProps) {
   const product = await getProductDetail(id)
   const reviews = await getProductReviews(id)
+  const photo = await getProductPhotos(id)
 
   return (
     <div className="max-w-4xl p-4 mx-auto bg-white shadow-md rounded-lg overflow-hidden">
       <div className="flex">
         <div className="flex-none  flex items-center justify-center p-2 mr-2 h-64 w-96 rounded-lg">
-          <img
-            src="/no-photo.jpg"
-            className="rounded-lg"
-          />
+        <img
+          src={photo.url}
+          alt="Product Image"
+          className="object-scale-down rounded-lg" // Adjusted styles here
+        />
         </div>
 
         <div className="p-4 flex-grow">

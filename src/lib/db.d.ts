@@ -35,6 +35,12 @@ export interface Products {
   price: number;
 }
 
+export interface ProductsPhotos {
+  id: Generated<number>;
+  productId: number;
+  url: string;
+}
+
 export interface ProductsReviews {
   id: Generated<number>;
   productId: number;
@@ -57,6 +63,7 @@ export interface DB {
   basket: Basket;
   doctors: Doctors;
   products: Products;
+  productsPhotos: ProductsPhotos;
   productsReviews: ProductsReviews;
   users: Users;
 }

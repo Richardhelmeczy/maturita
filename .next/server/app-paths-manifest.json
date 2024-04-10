@@ -1,9 +1,4 @@
 {
-  "/profile/myappointments/page": "app/profile/myappointments/page.js",
-  "/doctors/page": "app/doctors/page.js",
-  "/page": "app/page.js",
-  "/profile/page": "app/profile/page.js",
-  "/login/page": "app/login/page.js",
-  "/profile/basket/page": "app/profile/basket/page.js",
-  "/doctors/appointment/[id]/page": "app/doctors/appointment/[id]/page.js"
+  "/shop/page": "app/shop/page.js",
+  "/shop/[id]/page": "app/shop/[id]/page.js"
 }

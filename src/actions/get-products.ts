@@ -4,7 +4,11 @@ import { createDB } from "../lib/db"
 async function getProductsFromDb() {
   const db = createDB()
 
-  const products = await db.selectFrom('products').selectAll().execute()
+  const products = await db
+  .selectFrom('products')
+  .leftJoin('productsPhotos', 'products.id', 'productsPhotos.productId')
+  .selectAll()
+  .execute()
 
   return products
 }
