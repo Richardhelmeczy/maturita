@@ -12,7 +12,6 @@ type ProductProps = {
   description: string;
   price: number;
   userId: string;
-  url:string;
 };
 
 function Product(props: ProductProps) {
@@ -40,7 +39,6 @@ function Product(props: ProductProps) {
         <p className="text-sm text-slate-700 flex-grow">
           {truncateDescription(props.description)}{" "}
         </p>
-        <img src={props.url} alt={`Image of ${props.name}`} className="object-cover rounded-lg w-40 h-40 justify-items-center snap-center m-auto" />
         <div className="flex items-baseline mb-4 pb-6 border-b border-slate-200"></div>
         <div className="flex items-end mt-auto space-x-4">
           <button
@@ -82,7 +80,6 @@ export function ProductList() {
           description={p.description}
           price={p.price}
           userId={userId}
-          url={p.url}
         />
       ))}
     </div>

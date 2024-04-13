@@ -6,7 +6,6 @@ async function getProductsFromDb() {
 
   const products = await db
   .selectFrom('products')
-  .leftJoin('productsPhotos', 'products.id', 'productsPhotos.productId')
   .selectAll()
   .execute()
 
