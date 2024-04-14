@@ -45,7 +45,6 @@ export default function Basket() {
             <button
               className="button my-auto"
               onClick={() => onSubmit(pr.id)}
-              // onClick={() => console.log(pr.id)}
             >
               Zrušiť
             </button>
@@ -54,7 +53,6 @@ export default function Basket() {
       </div>
       <button
         className="secondary mt-4"
-        //onClick={() => removeProuct(appo.id)}
       >
         Kúpiť -{" "}
         {Math.floor(
